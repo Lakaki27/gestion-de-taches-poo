@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+th {
+    @apply bg-slate-800;
+    @apply p-5;
+    color: white;
+}
+
+table>tbody>tr:nth-child(even) {
+    @apply bg-gray-100;
+}
+
+table>tbody>tr:nth-child(even) {
+    @apply bg-purple-100;
+}
+
+table>tbody>tr>td {
+    @apply p-5;
+}
