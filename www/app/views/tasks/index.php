@@ -1,7 +1,9 @@
-<h1 class="text-4xl p-4 h-[8%] min-h-[60px] bg-slate-800 text-white font-bold flex justify-center items-center">
+<h1 class="text-4xl p-4 h-[8%] min-h-[60px] bg-slate-800 text-white font-bold flex justify-between items-center">
+    <a href="/" class="hover:scale-125 duration-200"><i class="fa-solid fa-arrow-left"></i></a>
     <p>
         Liste des tâches pour le projet <?= $project['title'] ?>
     </p>
+    <p></p>
 </h1>
 <div class="flex justify-center items-center h-[92%] w-full flex-col">
     <a href="/project/<?= $project['id'] ?>/create" class="bg-slate-600 duration-150 hover:bg-purple-400 text-white font-bold m-3 py-2 px-4 rounded focus:outline-none focus:shadow-outline">Ajouter une tâche au projet</a>
